@@ -71,10 +71,10 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        button1.setText(Integer.toString(answerArray.get(0)));
-        button2.setText(Integer.toString(answerArray.get(1)));
-        button3.setText(Integer.toString(answerArray.get(2)));
-        button4.setText(Integer.toString(answerArray.get(3)));
+        button1.setText(answerArray.get(0).toString());
+        button2.setText(answerArray.get(1).toString());
+        button3.setText(answerArray.get(2).toString());
+        button4.setText(answerArray.get(3).toString());
     }
 
     fun onClickStartButton(view: View){
